@@ -1,10 +1,13 @@
 import css from './App.module.css';
-import StatefulGreeting from './components/StatefulGreeting';
+import NavBarSimple from './components/NavBarSimple';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <StatefulGreeting greeting="I'm a stateful class component!" name="Ryan" />
+    <div className={css.App}>
+      {/* Add components here /> */}
+      <NavBarSimple />
+      <Sidebar />
     </div>
   );
 }
