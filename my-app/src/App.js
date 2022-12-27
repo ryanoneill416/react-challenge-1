@@ -1,17 +1,15 @@
 import css from './App.module.css';
 import Sidebar from './components/Sidebar'
 import NavBarForm from './components/NavBarForm'
-import ContentHooks from './components/ContentHooks';
-import HTTPHooks from './components/HTTPHooks';
+import ContentAPI from './components/ContentAPI';
 
 function App() {
   return (
-    <div>
+    <div className={css.App}>
       {/* Add your components here */}
-      {/* <NavBarForm />
+      <NavBarForm />
       <Sidebar />
-      <ContentHooks /> */}
-      <HTTPHooks />
+      <ContentAPI />
     </div>
   );
 }
